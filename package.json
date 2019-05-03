@@ -1,0 +1,24 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "npm run start --prefix client",
+    "server": "nodemon index.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^4.1.0",
+    "cors": "^2.8.5",
+    "create-react-app": "^2.1.8",
+    "express": "^4.16.4",
+    "mongoose": "^5.5.2",
+    "nodemon": "^1.18.10",
+    "react-router": "^5.0.0"
+  },
+  "devDependencies": {},
+  "description": ""
+}
